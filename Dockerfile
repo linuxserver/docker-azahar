@@ -10,7 +10,8 @@ ARG AZAHAR_VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 
-ENV TITLE=Azahar
+ENV TITLE=Azahar \
+    PIXELFLUX_WAYLAND=true
 
 RUN \
   echo "**** add icon ****" && \
