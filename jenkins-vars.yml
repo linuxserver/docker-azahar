@@ -8,6 +8,7 @@ custom_version_command: |
 release_type: stable
 release_tag: latest
 ls_branch: master
+image_sbom: false
 repo_vars:
   - BUILD_VERSION_ARG = 'AZAHAR_VERSION'
   - LS_USER = 'linuxserver'
